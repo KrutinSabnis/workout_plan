@@ -27,7 +27,7 @@ function getEntry(week, day) {
 async function init() {
   const res = await fetch("plans/plan.json");
   PLAN = await res.json();
-  document.getElementById("planName").textContent = PLAN.planName;
+  document.getElementById("planName").innerHTML = `${PLAN.planName} <span class="version-tag">v0.0.1</span>`;
   render();
 }
 
