@@ -286,26 +286,46 @@ document.getElementById("workoutModal").addEventListener("click", (e) => {
   if (e.target.id === "workoutModal") closeModal();
 });
 
-document.getElementById("exportBtn").addEventListener("click", () => {
+document.getElementById("exportBtn").addEventListener("click", async () => {
   const payload = {
     exportedAt: new Date().toISOString(),
     planName: PLAN?.planName,
     progress: PROGRESS,
   };
-  const text = JSON.stringify(payload, null, 2);
+
+  let schema = "";
+  try {
+    schema = await (await fetch("PLAN_SCHEMA.md")).text();
+  } catch {
+    // schema fetch is best-effort; export still works without it
+  }
+
+  const text = [
+    "I'm updating my training plan. Here is the plan.json schema this app expects, my current plan, and my logged progress. Please update plans/plan.json based on what I completed, my notes, and RPE.",
+    "",
+    "=== PLAN_SCHEMA.md ===",
+    schema,
+    "",
+    "=== current plans/plan.json ===",
+    JSON.stringify(PLAN, null, 2),
+    "",
+    "=== exported progress ===",
+    JSON.stringify(payload, null, 2),
+  ].join("\n");
+
   navigator.clipboard?.writeText(text).then(
-    () => alert("Progress copied to clipboard. Paste it to Claude to update your plan."),
+    () => alert("Plan, schema, and progress copied to clipboard. Paste it to Claude to update your plan."),
     () => fallbackExport(text)
   );
   if (!navigator.clipboard) fallbackExport(text);
 });
 
 function fallbackExport(text) {
-  const blob = new Blob([text], { type: "application/json" });
+  const blob = new Blob([text], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "workout-progress.json";
+  a.download = "workout-export.txt";
   a.click();
   URL.revokeObjectURL(url);
 }
