@@ -1,80 +1,670 @@
 {
-  "planName": "Base Build — 4 Week Plan",
+  "planName": "Hybrid Strength Build — 6 Week Plan",
   "startDate": "2026-08-04",
   "weeks": [
     {
       "week": 1,
-      "summary": "Establish baseline. Easy volume, one speed session.",
+      "summary": "Week 1 — Foundation. Learn the movements, own full range of motion, build a base. Everything deliberately submaximal — leave ~3 reps in the tank. Shoulders and neck ridiculously light on purpose.",
       "days": [
         {
+          "type": "strength",
+          "title": "Strength — Push (upper chest priority)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: shoulder circles (CARs), band/towel external rotations 2x15, scapular push-ups 2x10, wrist prep", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up", "sets": 3, "reps": "feet on a low step (~20cm), 8-10 reps", "notes": "Chest to floor, controlled. This is your #1 mover — full range every rep." },
+            { "name": "DB Floor/Incline Press", "sets": 3, "reps": "10-12 reps @ 12.5kg, 3s down, ~3 in reserve", "notes": "Floor press early = shoulder-friendly. Press with control, no bouncing." },
+            { "name": "Ring/Parallel Dip Progression", "sets": 3, "reps": "3 sets: support hold at top 20-30s + 3 slow negatives (5s lower). NO full dips.", "notes": "Shoulders lead here. Sharp/pinchy pain = stop and back off, that's not a push-through. Muscle burn is fine. Never bounce out of the bottom." },
+            { "name": "Pike Push-up (light shoulders)", "sets": 3, "reps": "6-10 reps, partial range, 3 in reserve", "notes": "Eased-in overhead work. Keep range pain-free; stop short of any impingement." },
+            { "name": "Triceps Extension (DB or ring)", "sets": 3, "reps": "10-15 reps", "notes": "Full lockout, controlled." },
+            { "name": "Neck — Flexion/Extension", "sets": 2, "reps": "2 sets x 10 slow flexion + 10 extension (hand/towel resistance, very light)", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Doorway pec stretch 2x30s per side, cross-body shoulder stretch, child's pose", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
           "day": 1,
-          "label": "Day 1",
-          "type": "recovery",
-          "title": "Recovery Run",
-          "duration": "15 min",
-          "exercises": [
-            { "name": "Easy Run", "sets": 1, "reps": "15 min @ conversational pace", "notes": "" }
-          ]
+          "label": "Day 1"
         },
         {
+          "type": "recovery",
+          "title": "Run — Easy (Zone 2)",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "30 min @ conversational pace (can hold a sentence)", "notes": "Truly easy. This builds the aerobic engine without stealing recovery from lifting." }
+          ],
           "day": 2,
-          "label": "Day 2",
-          "type": "long",
-          "title": "Long Run",
-          "duration": "60 min",
-          "exercises": [
-            { "name": "Long Run", "sets": 1, "reps": "60 min @ easy pace", "notes": "" }
-          ]
+          "label": "Day 2"
         },
         {
+          "type": "strength",
+          "title": "Strength — Pull (back, biceps, forearms)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: dead hang 2x20s, thoracic extensions, scap pulls 2x8, band pull-aparts 2x15", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Pull-up (full ROM)", "sets": 3, "reps": "3 sets of 5-6 full reps (chin over bar), leave 3 in reserve", "notes": "Dead hang start, pull the elbows down and back, chin clears the bar. Quality over quantity." },
+            { "name": "Ring Row", "sets": 3, "reps": "10-12 reps, 3s down, squeeze shoulder blades", "notes": "Lower your feet / walk them forward to make it harder. Big posture + upper-back builder for desk shoulders." },
+            { "name": "Chin-up (biceps emphasis)", "sets": 3, "reps": "5-8 reps, 3 in reserve", "notes": "Supinated grip. This plus curls is your bicep fix — and the reason your pull-ups will finish at the top." },
+            { "name": "DB Biceps Curl", "sets": 3, "reps": "10-12 reps @ 12.5kg", "notes": "Slow negative. Don't swing." },
+            { "name": "Mudgar Swings (10-to-2 / 360s)", "sets": 3, "reps": "8-10 per side", "notes": "Grip + forearm + shoulder health. Start slow and controlled with the 7kg." },
+            { "name": "Dead Hang / Wrist Curl", "sets": 2, "reps": "max hang + 15 wrist curls", "notes": "Direct forearm thickness work." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Lat stretch 2x30s per side, forearm/wrist stretch, thread-the-needle t-spine", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
           "day": 3,
-          "label": "Day 3",
-          "type": "rest",
-          "title": "Rest Day",
-          "duration": "",
-          "exercises": []
+          "label": "Day 3"
         },
         {
+          "type": "strength",
+          "title": "Strength — Lower (posterior chain + core)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "6 min: hip CARs, ankle rocks, couch/hip-flexor stretch 2x30s (desk hips!), glute bridges 2x12", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "DB Romanian Deadlift", "sets": 3, "reps": "10-12 reps @ 12.5kg each, 3s down", "notes": "Hinge at the hips, flat back, feel the hamstrings load. Posterior chain is your #1 gap." },
+            { "name": "Bulgarian Split Squat", "sets": 3, "reps": "8-12 per leg @ 12.5kg, 3 in reserve", "notes": "Rear foot on the chair. Single-leg strength + stability — huge for desk-weak legs." },
+            { "name": "Nordic Curl Progression", "sets": 3, "reps": "5-8 controlled reps (assist with hands as needed)", "notes": "Hook feet under something solid. Lower as slow as you can — negatives build the hamstring." },
+            { "name": "Single-leg Calf Raise", "sets": 3, "reps": "12-15 per leg", "notes": "Full stretch at the bottom, pause at the top." },
+            { "name": "Bear Crawl", "sets": 3, "reps": "2x across the room + back", "notes": "Knees just off the floor, flat back. Full-body + core + gentle shoulder loading." },
+            { "name": "Hanging Leg Raise", "sets": 3, "reps": "3 x 6-8 hanging bent-knee raises", "notes": "The abs you hate. Controlled, no swinging." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Hamstring + hip-flexor stretch 2x30s each, figure-4 glute stretch", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
           "day": 4,
-          "label": "Day 4",
-          "type": "recovery",
-          "title": "Recovery Run",
-          "duration": "60 min",
-          "exercises": [
-            { "name": "Easy Run", "sets": 1, "reps": "60 min @ conversational pace", "notes": "" }
-          ]
+          "label": "Day 4"
         },
         {
+          "type": "speed",
+          "title": "Run — Moderate + Strides",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Warm-up", "sets": 1, "reps": "8 min easy", "notes": "" },
+            { "name": "Steady Segment", "sets": 1, "reps": "9 min @ comfortably-hard (can speak a few words)", "notes": "Your one 'quality' run. Don't turn it into a race." },
+            { "name": "Strides", "sets": 4, "reps": "20s relaxed fast + 40s walk", "notes": "Smooth, fast feet, not a sprint." },
+            { "name": "Easy Cool-down", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ],
           "day": 5,
-          "label": "Day 5",
-          "type": "speed",
-          "title": "Speed Run",
-          "duration": "22 min",
-          "exercises": [
-            { "name": "Warm-up Jog", "sets": 1, "reps": "5 min easy", "notes": "" },
-            { "name": "Tempo Run", "sets": 1, "reps": "12 min @ threshold pace", "notes": "" },
-            { "name": "Cool-down Jog", "sets": 1, "reps": "5 min easy", "notes": "" }
-          ]
+          "label": "Day 5"
         },
         {
+          "type": "strength",
+          "title": "Strength — Full-body / weak points",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: full-body flow — arm swings, hip openers, t-spine rotations, scap push-ups", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up (2nd chest hit)", "sets": 3, "reps": "feet on a low step (~20cm), 8-10 reps", "notes": "Second weekly upper-chest session — this frequency is what grows it. Chest to floor, controlled. This is your #1 mover — full range every rep." },
+            { "name": "Archer / Ring Row", "sets": 3, "reps": "8-10 reps", "notes": "Second back hit — lean toward the working side for more load." },
+            { "name": "DB Lateral Raise (light)", "sets": 3, "reps": "12-15 reps, light, 3 in reserve", "notes": "Shoulder WIDTH, but strict and light — no swinging, stop if it pinches." },
+            { "name": "Farmer Carry", "sets": 3, "reps": "30-40m @ 12.5kg each", "notes": "Grip, traps, neck, core all at once. Stand tall, brace." },
+            { "name": "Neck — Lateral + Iso", "sets": 2, "reps": "2 sets x 10 slow flexion + 10 extension (hand/towel resistance, very light)", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Mudgar 360s", "sets": 3, "reps": "8-12 per side", "notes": "More forearm + shoulder-health volume." },
+            { "name": "Hollow Body Hold", "sets": 3, "reps": "3 x 20s hollow hold (tuck/bent-knee if needed)", "notes": "Low back pressed into the floor the whole time." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Full-body stretch: pecs, lats, hips, neck. 6-8 min, unwind.", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
           "day": 6,
-          "label": "Day 6",
-          "type": "rest",
-          "title": "Rest Day",
-          "duration": "",
-          "exercises": []
+          "label": "Day 6"
         },
         {
-          "day": 7,
-          "label": "Day 7",
-          "type": "speed",
-          "title": "Speed Run",
-          "duration": "67 min",
+          "type": "mobility",
+          "title": "Mobility & Recovery",
+          "duration": "25-30 min",
           "exercises": [
-            { "name": "Warm-up Jog", "sets": 1, "reps": "10 min easy", "notes": "" },
-            { "name": "400m Intervals", "sets": 8, "reps": "400m @ 5k pace, 90s jog recovery", "notes": "" },
-            { "name": "Cool-down Jog", "sets": 1, "reps": "10 min easy", "notes": "" }
-          ]
+            { "name": "Thoracic Spine", "sets": 1, "reps": "Foam roll / extensions + open-book rotations 2x10 per side", "notes": "Undo the desk hunch. Priority for you." },
+            { "name": "Hip Openers", "sets": 1, "reps": "Couch stretch 2x45s per side, 90/90 transitions 2x8", "notes": "Desk hips get tight — this keeps your squats and runs healthy." },
+            { "name": "Neck & Upper Back", "sets": 1, "reps": "Gentle neck CARs, chin tucks 2x10, band pull-aparts 2x15", "notes": "Posture reset for the office-worker rounding." },
+            { "name": "Easy Walk", "sets": 1, "reps": "15-20 min easy walk", "notes": "Blood flow, recovery, no intensity." }
+          ],
+          "day": 7,
+          "label": "Day 7"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "summary": "Week 2 — Groove. Same movements, a touch closer to failure (~2 in reserve) and a controlled pause added. Small rep bumps. Shoulder prehab still gentle.",
+      "days": [
+        {
+          "type": "strength",
+          "title": "Strength — Push (upper chest priority)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: shoulder circles (CARs), band/towel external rotations 2x15, scapular push-ups 2x10, wrist prep", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up", "sets": 3, "reps": "feet ~25cm, 9-11 reps", "notes": "Add the pause at the bottom. Elbows ~45°, not flared." },
+            { "name": "DB Floor/Incline Press", "sets": 3, "reps": "10-12 reps @ 12.5kg, 3s down, 1s pause, ~2 in reserve", "notes": "Floor press early = shoulder-friendly. Press with control, no bouncing." },
+            { "name": "Ring/Parallel Dip Progression", "sets": 3, "reps": "4 sets: 3-4 slow negatives, sink only to a pain-free depth", "notes": "Shoulders lead here. Sharp/pinchy pain = stop and back off, that's not a push-through. Muscle burn is fine. Never bounce out of the bottom." },
+            { "name": "Pike Push-up (light shoulders)", "sets": 3, "reps": "6-10 reps, partial range, 2 in reserve", "notes": "Eased-in overhead work. Keep range pain-free; stop short of any impingement." },
+            { "name": "Triceps Extension (DB or ring)", "sets": 3, "reps": "10-15 reps", "notes": "Full lockout, controlled." },
+            { "name": "Neck — Flexion/Extension", "sets": 2, "reps": "2 sets x 12 each direction + 10 lateral each side", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Doorway pec stretch 2x30s per side, cross-body shoulder stretch, child's pose", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 1,
+          "label": "Day 1"
+        },
+        {
+          "type": "recovery",
+          "title": "Run — Easy (Zone 2)",
+          "duration": "32 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "32 min @ conversational pace (can hold a sentence)", "notes": "Truly easy. This builds the aerobic engine without stealing recovery from lifting." }
+          ],
+          "day": 2,
+          "label": "Day 2"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Pull (back, biceps, forearms)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: dead hang 2x20s, thoracic extensions, scap pulls 2x8, band pull-aparts 2x15", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Pull-up (full ROM)", "sets": 3, "reps": "3 sets of 6-7 full reps", "notes": "Same. Think 'chest to bar' intent even if you don't touch." },
+            { "name": "Ring Row", "sets": 3, "reps": "10-12 reps, 3s down, 1s pause, squeeze shoulder blades", "notes": "Lower your feet / walk them forward to make it harder. Big posture + upper-back builder for desk shoulders." },
+            { "name": "Chin-up (biceps emphasis)", "sets": 3, "reps": "5-8 reps, 2 in reserve", "notes": "Supinated grip. This plus curls is your bicep fix — and the reason your pull-ups will finish at the top." },
+            { "name": "DB Biceps Curl", "sets": 3, "reps": "10-12 reps @ 12.5kg", "notes": "Slow negative. Don't swing." },
+            { "name": "Mudgar Swings (10-to-2 / 360s)", "sets": 3, "reps": "8-10 per side", "notes": "Grip + forearm + shoulder health. Start slow and controlled with the 7kg." },
+            { "name": "Dead Hang / Wrist Curl", "sets": 2, "reps": "max hang + 15 wrist curls", "notes": "Direct forearm thickness work." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Lat stretch 2x30s per side, forearm/wrist stretch, thread-the-needle t-spine", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 3,
+          "label": "Day 3"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Lower (posterior chain + core)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "6 min: hip CARs, ankle rocks, couch/hip-flexor stretch 2x30s (desk hips!), glute bridges 2x12", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "DB Romanian Deadlift", "sets": 3, "reps": "10-12 reps @ 12.5kg each, 3s down, 1s pause", "notes": "Hinge at the hips, flat back, feel the hamstrings load. Posterior chain is your #1 gap." },
+            { "name": "Bulgarian Split Squat", "sets": 3, "reps": "8-12 per leg @ 12.5kg, 2 in reserve", "notes": "Rear foot on the chair. Single-leg strength + stability — huge for desk-weak legs." },
+            { "name": "Nordic Curl Progression", "sets": 3, "reps": "5-8 controlled reps (assist with hands as needed)", "notes": "Hook feet under something solid. Lower as slow as you can — negatives build the hamstring." },
+            { "name": "Single-leg Calf Raise", "sets": 3, "reps": "12-15 per leg", "notes": "Full stretch at the bottom, pause at the top." },
+            { "name": "Bear Crawl", "sets": 3, "reps": "2x across the room + back", "notes": "Knees just off the floor, flat back. Full-body + core + gentle shoulder loading." },
+            { "name": "Hanging Leg Raise", "sets": 3, "reps": "3 x 8-10 bent-knee raises", "notes": "The abs you hate. Controlled, no swinging." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Hamstring + hip-flexor stretch 2x30s each, figure-4 glute stretch", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 4,
+          "label": "Day 4"
+        },
+        {
+          "type": "speed",
+          "title": "Run — Moderate + Strides",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Warm-up", "sets": 1, "reps": "8 min easy", "notes": "" },
+            { "name": "Steady Segment", "sets": 1, "reps": "10 min @ comfortably-hard (can speak a few words)", "notes": "Your one 'quality' run. Don't turn it into a race." },
+            { "name": "Strides", "sets": 4, "reps": "20s relaxed fast + 40s walk", "notes": "Smooth, fast feet, not a sprint." },
+            { "name": "Easy Cool-down", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ],
+          "day": 5,
+          "label": "Day 5"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Full-body / weak points",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: full-body flow — arm swings, hip openers, t-spine rotations, scap push-ups", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up (2nd chest hit)", "sets": 3, "reps": "feet ~25cm, 9-11 reps", "notes": "Second weekly upper-chest session — this frequency is what grows it. Add the pause at the bottom. Elbows ~45°, not flared." },
+            { "name": "Archer / Ring Row", "sets": 3, "reps": "8-10 reps", "notes": "Second back hit — lean toward the working side for more load." },
+            { "name": "DB Lateral Raise (light)", "sets": 3, "reps": "12-15 reps, light, 2 in reserve", "notes": "Shoulder WIDTH, but strict and light — no swinging, stop if it pinches." },
+            { "name": "Farmer Carry", "sets": 3, "reps": "30-40m @ 12.5kg each", "notes": "Grip, traps, neck, core all at once. Stand tall, brace." },
+            { "name": "Neck — Lateral + Iso", "sets": 2, "reps": "2 sets x 12 each direction + 10 lateral each side", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Mudgar 360s", "sets": 3, "reps": "8-12 per side", "notes": "More forearm + shoulder-health volume." },
+            { "name": "Hollow Body Hold", "sets": 3, "reps": "3 x 25s hollow hold", "notes": "Low back pressed into the floor the whole time." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Full-body stretch: pecs, lats, hips, neck. 6-8 min, unwind.", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 6,
+          "label": "Day 6"
+        },
+        {
+          "type": "mobility",
+          "title": "Mobility & Recovery",
+          "duration": "25-30 min",
+          "exercises": [
+            { "name": "Thoracic Spine", "sets": 1, "reps": "Foam roll / extensions + open-book rotations 2x10 per side", "notes": "Undo the desk hunch. Priority for you." },
+            { "name": "Hip Openers", "sets": 1, "reps": "Couch stretch 2x45s per side, 90/90 transitions 2x8", "notes": "Desk hips get tight — this keeps your squats and runs healthy." },
+            { "name": "Neck & Upper Back", "sets": 1, "reps": "Gentle neck CARs, chin tucks 2x10, band pull-aparts 2x15", "notes": "Posture reset for the office-worker rounding." },
+            { "name": "Easy Walk", "sets": 1, "reps": "15-20 min easy walk", "notes": "Blood flow, recovery, no intensity." }
+          ],
+          "day": 7,
+          "label": "Day 7"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "summary": "Week 3 — Build. First real step up: a 4th set on the big lifts and negatives introduced on pull-ups and dips. Push variations get harder (higher decline, archer reach).",
+      "days": [
+        {
+          "type": "strength",
+          "title": "Strength — Push (upper chest priority)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: shoulder circles (CARs), band/towel external rotations 2x15, scapular push-ups 2x10, wrist prep", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up", "sets": 4, "reps": "feet ~30cm, 10-12 reps", "notes": "Raise the feet. If it gets easy, slow the lower to 4s." },
+            { "name": "DB Floor/Incline Press", "sets": 4, "reps": "10-12 reps @ 12.5kg, 3s down, ~1-2 in reserve", "notes": "Floor press early = shoulder-friendly. Press with control, no bouncing." },
+            { "name": "Ring/Parallel Dip Progression", "sets": 4, "reps": "3 sets of 5 band-assisted / feet-assisted dips, partial pain-free range", "notes": "Shoulders lead here. Sharp/pinchy pain = stop and back off, that's not a push-through. Muscle burn is fine. Never bounce out of the bottom." },
+            { "name": "Pike Push-up (light shoulders)", "sets": 3, "reps": "6-10 reps, partial range, 1-2 in reserve", "notes": "Eased-in overhead work. Keep range pain-free; stop short of any impingement." },
+            { "name": "Triceps Extension (DB or ring)", "sets": 3, "reps": "10-15 reps", "notes": "Full lockout, controlled." },
+            { "name": "Neck — Flexion/Extension", "sets": 3, "reps": "3 sets x 12 flexion/extension + 12 lateral", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Doorway pec stretch 2x30s per side, cross-body shoulder stretch, child's pose", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 1,
+          "label": "Day 1"
+        },
+        {
+          "type": "recovery",
+          "title": "Run — Easy (Zone 2)",
+          "duration": "34 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "34 min @ conversational pace (can hold a sentence)", "notes": "Truly easy. This builds the aerobic engine without stealing recovery from lifting." }
+          ],
+          "day": 2,
+          "label": "Day 2"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Pull (back, biceps, forearms)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: dead hang 2x20s, thoracic extensions, scap pulls 2x8, band pull-aparts 2x15", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Pull-up (full ROM)", "sets": 4, "reps": "4 sets of 6-8, then 3 slow negatives (5s lower)", "notes": "Negatives build the top end you're missing — fight the lower for a full 5s." },
+            { "name": "Ring Row", "sets": 4, "reps": "10-12 reps, 3s down, squeeze shoulder blades", "notes": "Lower your feet / walk them forward to make it harder. Big posture + upper-back builder for desk shoulders." },
+            { "name": "Chin-up (biceps emphasis)", "sets": 3, "reps": "5-8 reps, 1-2 in reserve", "notes": "Supinated grip. This plus curls is your bicep fix — and the reason your pull-ups will finish at the top." },
+            { "name": "DB Biceps Curl", "sets": 3, "reps": "10-12 reps @ 12.5kg", "notes": "Slow negative. Don't swing." },
+            { "name": "Mudgar Swings (10-to-2 / 360s)", "sets": 3, "reps": "8-10 per side", "notes": "Grip + forearm + shoulder health. Start slow and controlled with the 7kg." },
+            { "name": "Dead Hang / Wrist Curl", "sets": 2, "reps": "max hang + 15 wrist curls", "notes": "Direct forearm thickness work." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Lat stretch 2x30s per side, forearm/wrist stretch, thread-the-needle t-spine", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 3,
+          "label": "Day 3"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Lower (posterior chain + core)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "6 min: hip CARs, ankle rocks, couch/hip-flexor stretch 2x30s (desk hips!), glute bridges 2x12", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "DB Romanian Deadlift", "sets": 4, "reps": "10-12 reps @ 12.5kg each, 3s down", "notes": "Hinge at the hips, flat back, feel the hamstrings load. Posterior chain is your #1 gap." },
+            { "name": "Bulgarian Split Squat", "sets": 4, "reps": "8-12 per leg @ 12.5kg, 1-2 in reserve", "notes": "Rear foot on the chair. Single-leg strength + stability — huge for desk-weak legs." },
+            { "name": "Nordic Curl Progression", "sets": 3, "reps": "5-8 controlled reps (assist with hands as needed)", "notes": "Hook feet under something solid. Lower as slow as you can — negatives build the hamstring." },
+            { "name": "Single-leg Calf Raise", "sets": 3, "reps": "12-15 per leg @ 12.5kg", "notes": "Full stretch at the bottom, pause at the top." },
+            { "name": "Bear Crawl", "sets": 3, "reps": "2x across the room + back", "notes": "Knees just off the floor, flat back. Full-body + core + gentle shoulder loading." },
+            { "name": "Hanging Leg Raise", "sets": 3, "reps": "3 x 8-10 straight-ish legs", "notes": "The abs you hate. Controlled, no swinging." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Hamstring + hip-flexor stretch 2x30s each, figure-4 glute stretch", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 4,
+          "label": "Day 4"
+        },
+        {
+          "type": "speed",
+          "title": "Run — Moderate + Strides",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Warm-up", "sets": 1, "reps": "8 min easy", "notes": "" },
+            { "name": "Steady Segment", "sets": 1, "reps": "11 min @ comfortably-hard (can speak a few words)", "notes": "Your one 'quality' run. Don't turn it into a race." },
+            { "name": "Strides", "sets": 4, "reps": "20s relaxed fast + 40s walk", "notes": "Smooth, fast feet, not a sprint." },
+            { "name": "Easy Cool-down", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ],
+          "day": 5,
+          "label": "Day 5"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Full-body / weak points",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: full-body flow — arm swings, hip openers, t-spine rotations, scap push-ups", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up (2nd chest hit)", "sets": 4, "reps": "feet ~30cm, 10-12 reps", "notes": "Second weekly upper-chest session — this frequency is what grows it. Raise the feet. If it gets easy, slow the lower to 4s." },
+            { "name": "Archer / Ring Row", "sets": 4, "reps": "8-10 per side", "notes": "Second back hit — lean toward the working side for more load." },
+            { "name": "DB Lateral Raise (light)", "sets": 3, "reps": "12-15 reps, light, 1-2 in reserve", "notes": "Shoulder WIDTH, but strict and light — no swinging, stop if it pinches." },
+            { "name": "Farmer Carry", "sets": 3, "reps": "30-40m @ 12.5kg each", "notes": "Grip, traps, neck, core all at once. Stand tall, brace." },
+            { "name": "Neck — Lateral + Iso", "sets": 3, "reps": "3 sets x 12 flexion/extension + 12 lateral", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Mudgar 360s", "sets": 3, "reps": "8-12 per side", "notes": "More forearm + shoulder-health volume." },
+            { "name": "Hollow Body Hold", "sets": 3, "reps": "3 x 30s, legs straighter", "notes": "Low back pressed into the floor the whole time." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Full-body stretch: pecs, lats, hips, neck. 6-8 min, unwind.", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 6,
+          "label": "Day 6"
+        },
+        {
+          "type": "mobility",
+          "title": "Mobility & Recovery",
+          "duration": "25-30 min",
+          "exercises": [
+            { "name": "Thoracic Spine", "sets": 1, "reps": "Foam roll / extensions + open-book rotations 2x10 per side", "notes": "Undo the desk hunch. Priority for you." },
+            { "name": "Hip Openers", "sets": 1, "reps": "Couch stretch 2x45s per side, 90/90 transitions 2x8", "notes": "Desk hips get tight — this keeps your squats and runs healthy." },
+            { "name": "Neck & Upper Back", "sets": 1, "reps": "Gentle neck CARs, chin tucks 2x10, band pull-aparts 2x15", "notes": "Posture reset for the office-worker rounding." },
+            { "name": "Easy Walk", "sets": 1, "reps": "15-20 min easy walk", "notes": "Blood flow, recovery, no intensity." }
+          ],
+          "day": 7,
+          "label": "Day 7"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "summary": "Week 4 — Intensify. Close to failure now. First drop set enters on upper chest. Harder variations unlocked if shoulders are pain-free. This is where it starts to bite.",
+      "days": [
+        {
+          "type": "strength",
+          "title": "Strength — Push (upper chest priority)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: shoulder circles (CARs), band/towel external rotations 2x15, scapular push-ups 2x10, wrist prep", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up", "sets": 4, "reps": "feet ~35cm, 10-12 reps + 1 drop set to floor", "notes": "After the last rep, drop feet to the floor and rep to failure." },
+            { "name": "DB Floor/Incline Press", "sets": 4, "reps": "10-12 reps @ 12.5kg, 3s down, ~1 in reserve", "notes": "Floor press early = shoulder-friendly. Press with control, no bouncing." },
+            { "name": "Ring/Parallel Dip Progression", "sets": 4, "reps": "4 sets of 5-6 assisted dips (only if shoulders are pain-free)", "notes": "Shoulders lead here. Sharp/pinchy pain = stop and back off, that's not a push-through. Muscle burn is fine. Never bounce out of the bottom." },
+            { "name": "Pike Push-up (light shoulders)", "sets": 3, "reps": "6-10 reps, partial range, 1 in reserve", "notes": "Eased-in overhead work. Keep range pain-free; stop short of any impingement." },
+            { "name": "Triceps Extension (DB or ring)", "sets": 3, "reps": "10-15 reps", "notes": "Full lockout, controlled." },
+            { "name": "Neck — Flexion/Extension", "sets": 3, "reps": "3 sets x 15 each + 20s isometric hold each direction", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Doorway pec stretch 2x30s per side, cross-body shoulder stretch, child's pose", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 1,
+          "label": "Day 1"
+        },
+        {
+          "type": "recovery",
+          "title": "Run — Easy (Zone 2)",
+          "duration": "36 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "36 min @ conversational pace (can hold a sentence)", "notes": "Truly easy. This builds the aerobic engine without stealing recovery from lifting." }
+          ],
+          "day": 2,
+          "label": "Day 2"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Pull (back, biceps, forearms)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: dead hang 2x20s, thoracic extensions, scap pulls 2x8, band pull-aparts 2x15", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Pull-up (full ROM)", "sets": 4, "reps": "4 sets of 7-9, then 4 slow negatives", "notes": "Keep negatives slow and controlled; that's where the top-range strength comes from." },
+            { "name": "Ring Row", "sets": 4, "reps": "10-12 reps, 3s down, squeeze shoulder blades", "notes": "Lower your feet / walk them forward to make it harder. Big posture + upper-back builder for desk shoulders." },
+            { "name": "Chin-up (biceps emphasis)", "sets": 3, "reps": "5-8 reps, 1 in reserve", "notes": "Supinated grip. This plus curls is your bicep fix — and the reason your pull-ups will finish at the top." },
+            { "name": "DB Biceps Curl", "sets": 3, "reps": "10-12 reps @ 12.5kg + drop set last set", "notes": "Slow negative. Don't swing." },
+            { "name": "Mudgar Swings (10-to-2 / 360s)", "sets": 3, "reps": "10-12 per side", "notes": "Grip + forearm + shoulder health. Start slow and controlled with the 7kg." },
+            { "name": "Dead Hang / Wrist Curl", "sets": 2, "reps": "max hang + 15 wrist curls", "notes": "Direct forearm thickness work." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Lat stretch 2x30s per side, forearm/wrist stretch, thread-the-needle t-spine", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 3,
+          "label": "Day 3"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Lower (posterior chain + core)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "6 min: hip CARs, ankle rocks, couch/hip-flexor stretch 2x30s (desk hips!), glute bridges 2x12", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "DB Romanian Deadlift", "sets": 4, "reps": "10-12 reps @ 12.5kg each, 3s down", "notes": "Hinge at the hips, flat back, feel the hamstrings load. Posterior chain is your #1 gap." },
+            { "name": "Bulgarian Split Squat", "sets": 4, "reps": "8-12 per leg @ 12.5kg, 1 in reserve", "notes": "Rear foot on the chair. Single-leg strength + stability — huge for desk-weak legs." },
+            { "name": "Nordic Curl Progression", "sets": 3, "reps": "6-10 reps", "notes": "Hook feet under something solid. Lower as slow as you can — negatives build the hamstring." },
+            { "name": "Single-leg Calf Raise", "sets": 3, "reps": "12-15 per leg @ 12.5kg", "notes": "Full stretch at the bottom, pause at the top." },
+            { "name": "Bear Crawl", "sets": 3, "reps": "3x across + back", "notes": "Knees just off the floor, flat back. Full-body + core + gentle shoulder loading." },
+            { "name": "Hanging Leg Raise", "sets": 4, "reps": "4 x 8-10 straight-leg raises", "notes": "The abs you hate. Controlled, no swinging." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Hamstring + hip-flexor stretch 2x30s each, figure-4 glute stretch", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 4,
+          "label": "Day 4"
+        },
+        {
+          "type": "speed",
+          "title": "Run — Moderate + Strides",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Warm-up", "sets": 1, "reps": "8 min easy", "notes": "" },
+            { "name": "Steady Segment", "sets": 1, "reps": "12 min @ comfortably-hard (can speak a few words)", "notes": "Your one 'quality' run. Don't turn it into a race." },
+            { "name": "Strides", "sets": 6, "reps": "20s relaxed fast + 40s walk", "notes": "Smooth, fast feet, not a sprint." },
+            { "name": "Easy Cool-down", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ],
+          "day": 5,
+          "label": "Day 5"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Full-body / weak points",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: full-body flow — arm swings, hip openers, t-spine rotations, scap push-ups", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up (2nd chest hit)", "sets": 4, "reps": "feet ~35cm, 10-12 reps + 1 drop set to floor", "notes": "Second weekly upper-chest session — this frequency is what grows it. After the last rep, drop feet to the floor and rep to failure." },
+            { "name": "Archer / Ring Row", "sets": 4, "reps": "8-10 per side", "notes": "Second back hit — lean toward the working side for more load." },
+            { "name": "DB Lateral Raise (light)", "sets": 3, "reps": "12-15 reps, light, 1 in reserve", "notes": "Shoulder WIDTH, but strict and light — no swinging, stop if it pinches." },
+            { "name": "Farmer Carry", "sets": 3, "reps": "40-50m", "notes": "Grip, traps, neck, core all at once. Stand tall, brace." },
+            { "name": "Neck — Lateral + Iso", "sets": 3, "reps": "3 sets x 15 each + 20s isometric hold each direction", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Mudgar 360s", "sets": 3, "reps": "8-12 per side", "notes": "More forearm + shoulder-health volume." },
+            { "name": "Hollow Body Hold", "sets": 3, "reps": "3 x 35s full hollow", "notes": "Low back pressed into the floor the whole time." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Full-body stretch: pecs, lats, hips, neck. 6-8 min, unwind.", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 6,
+          "label": "Day 6"
+        },
+        {
+          "type": "mobility",
+          "title": "Mobility & Recovery",
+          "duration": "25-30 min",
+          "exercises": [
+            { "name": "Thoracic Spine", "sets": 1, "reps": "Foam roll / extensions + open-book rotations 2x10 per side", "notes": "Undo the desk hunch. Priority for you." },
+            { "name": "Hip Openers", "sets": 1, "reps": "Couch stretch 2x45s per side, 90/90 transitions 2x8", "notes": "Desk hips get tight — this keeps your squats and runs healthy." },
+            { "name": "Neck & Upper Back", "sets": 1, "reps": "Gentle neck CARs, chin tucks 2x10, band pull-aparts 2x15", "notes": "Posture reset for the office-worker rounding." },
+            { "name": "Easy Walk", "sets": 1, "reps": "15-20 min easy walk", "notes": "Blood flow, recovery, no intensity." }
+          ],
+          "day": 7,
+          "label": "Day 7"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "summary": "Week 5 — Peak volume. Highest, hardest week: take working sets to or near failure, drop sets on chest and back, slow negatives everywhere. The grind week — recovery and sleep matter most here.",
+      "days": [
+        {
+          "type": "strength",
+          "title": "Strength — Push (upper chest priority)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: shoulder circles (CARs), band/towel external rotations 2x15, scapular push-ups 2x10, wrist prep", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up", "sets": 4, "reps": "feet on a chair (~45cm), 10-12 reps + 1 drop set to floor", "notes": "Chair height. Same drop-set finish. Hardest push variation you own." },
+            { "name": "DB Floor/Incline Press", "sets": 4, "reps": "10-12 reps @ 12.5kg, 4s down, ~0-1 in reserve", "notes": "Floor press early = shoulder-friendly. Press with control, no bouncing." },
+            { "name": "Ring/Parallel Dip Progression", "sets": 4, "reps": "3-4 sets of full dips as able + negatives to finish", "notes": "Shoulders lead here. Sharp/pinchy pain = stop and back off, that's not a push-through. Muscle burn is fine. Never bounce out of the bottom." },
+            { "name": "Pike Push-up (light shoulders)", "sets": 3, "reps": "6-10 reps, partial range, 0-1 in reserve", "notes": "Eased-in overhead work. Keep range pain-free; stop short of any impingement." },
+            { "name": "Triceps Extension (DB or ring)", "sets": 3, "reps": "10-15 reps", "notes": "Full lockout, controlled." },
+            { "name": "Neck — Flexion/Extension", "sets": 3, "reps": "3 sets x 15 + 30s holds, slightly more hand pressure", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Doorway pec stretch 2x30s per side, cross-body shoulder stretch, child's pose", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 1,
+          "label": "Day 1"
+        },
+        {
+          "type": "recovery",
+          "title": "Run — Easy (Zone 2)",
+          "duration": "38 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "38 min @ conversational pace (can hold a sentence)", "notes": "Truly easy. This builds the aerobic engine without stealing recovery from lifting." }
+          ],
+          "day": 2,
+          "label": "Day 2"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Pull (back, biceps, forearms)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: dead hang 2x20s, thoracic extensions, scap pulls 2x8, band pull-aparts 2x15", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Pull-up (full ROM)", "sets": 4, "reps": "4 sets of 8-10 + 1 drop to band-assisted to failure", "notes": "The drop set adds volume without frying your form." },
+            { "name": "Ring Row", "sets": 4, "reps": "10-12 reps, 4s down, squeeze shoulder blades", "notes": "Lower your feet / walk them forward to make it harder. Big posture + upper-back builder for desk shoulders." },
+            { "name": "Chin-up (biceps emphasis)", "sets": 3, "reps": "AMRAP x3", "notes": "Supinated grip. This plus curls is your bicep fix — and the reason your pull-ups will finish at the top." },
+            { "name": "DB Biceps Curl", "sets": 3, "reps": "10-12 reps @ 12.5kg + drop set last set", "notes": "Slow negative. Don't swing." },
+            { "name": "Mudgar Swings (10-to-2 / 360s)", "sets": 3, "reps": "10-12 per side", "notes": "Grip + forearm + shoulder health. Start slow and controlled with the 7kg." },
+            { "name": "Dead Hang / Wrist Curl", "sets": 2, "reps": "max hang + 15 wrist curls", "notes": "Direct forearm thickness work." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Lat stretch 2x30s per side, forearm/wrist stretch, thread-the-needle t-spine", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 3,
+          "label": "Day 3"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Lower (posterior chain + core)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "6 min: hip CARs, ankle rocks, couch/hip-flexor stretch 2x30s (desk hips!), glute bridges 2x12", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "DB Romanian Deadlift", "sets": 4, "reps": "10-12 reps @ 12.5kg each, 4s down. Last set is a drop set — halve the load and go to failure.", "notes": "Hinge at the hips, flat back, feel the hamstrings load. Posterior chain is your #1 gap." },
+            { "name": "Bulgarian Split Squat", "sets": 4, "reps": "8-12 per leg @ 12.5kg, 0-1 in reserve", "notes": "Rear foot on the chair. Single-leg strength + stability — huge for desk-weak legs." },
+            { "name": "Nordic Curl Progression", "sets": 3, "reps": "6-10 reps", "notes": "Hook feet under something solid. Lower as slow as you can — negatives build the hamstring." },
+            { "name": "Single-leg Calf Raise", "sets": 3, "reps": "12-15 per leg @ 12.5kg", "notes": "Full stretch at the bottom, pause at the top." },
+            { "name": "Bear Crawl", "sets": 3, "reps": "3x across + back", "notes": "Knees just off the floor, flat back. Full-body + core + gentle shoulder loading." },
+            { "name": "Hanging Leg Raise", "sets": 4, "reps": "4 x 10-12 straight-leg, controlled lower", "notes": "The abs you hate. Controlled, no swinging." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Hamstring + hip-flexor stretch 2x30s each, figure-4 glute stretch", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 4,
+          "label": "Day 4"
+        },
+        {
+          "type": "speed",
+          "title": "Run — Moderate + Strides",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Warm-up", "sets": 1, "reps": "8 min easy", "notes": "" },
+            { "name": "Steady Segment", "sets": 1, "reps": "13 min @ comfortably-hard (can speak a few words)", "notes": "Your one 'quality' run. Don't turn it into a race." },
+            { "name": "Strides", "sets": 6, "reps": "20s relaxed fast + 40s walk", "notes": "Smooth, fast feet, not a sprint." },
+            { "name": "Easy Cool-down", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ],
+          "day": 5,
+          "label": "Day 5"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Full-body / weak points",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: full-body flow — arm swings, hip openers, t-spine rotations, scap push-ups", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up (2nd chest hit)", "sets": 4, "reps": "feet on a chair (~45cm), 10-12 reps + 1 drop set to floor", "notes": "Second weekly upper-chest session — this frequency is what grows it. Chair height. Same drop-set finish. Hardest push variation you own." },
+            { "name": "Archer / Ring Row", "sets": 4, "reps": "8-10 per side", "notes": "Second back hit — lean toward the working side for more load." },
+            { "name": "DB Lateral Raise (light)", "sets": 3, "reps": "12-15 reps, light, 0-1 in reserve", "notes": "Shoulder WIDTH, but strict and light — no swinging, stop if it pinches." },
+            { "name": "Farmer Carry", "sets": 3, "reps": "40-50m", "notes": "Grip, traps, neck, core all at once. Stand tall, brace." },
+            { "name": "Neck — Lateral + Iso", "sets": 3, "reps": "3 sets x 15 + 30s holds, slightly more hand pressure", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Mudgar 360s", "sets": 3, "reps": "8-12 per side", "notes": "More forearm + shoulder-health volume." },
+            { "name": "Hollow Body Hold", "sets": 3, "reps": "3 x 40s full hollow", "notes": "Low back pressed into the floor the whole time." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Full-body stretch: pecs, lats, hips, neck. 6-8 min, unwind.", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 6,
+          "label": "Day 6"
+        },
+        {
+          "type": "mobility",
+          "title": "Mobility & Recovery",
+          "duration": "25-30 min",
+          "exercises": [
+            { "name": "Thoracic Spine", "sets": 1, "reps": "Foam roll / extensions + open-book rotations 2x10 per side", "notes": "Undo the desk hunch. Priority for you." },
+            { "name": "Hip Openers", "sets": 1, "reps": "Couch stretch 2x45s per side, 90/90 transitions 2x8", "notes": "Desk hips get tight — this keeps your squats and runs healthy." },
+            { "name": "Neck & Upper Back", "sets": 1, "reps": "Gentle neck CARs, chin tucks 2x10, band pull-aparts 2x15", "notes": "Posture reset for the office-worker rounding." },
+            { "name": "Easy Walk", "sets": 1, "reps": "15-20 min easy walk", "notes": "Blood flow, recovery, no intensity." }
+          ],
+          "day": 7,
+          "label": "Day 7"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "summary": "Week 6 — Peak & Test. Volume trimmed so you show up fresh, but intensity and variation peak. Benchmark tests baked in — max pull-ups, max decline push-ups, longest hollow hold. This week you measure the gain.",
+      "days": [
+        {
+          "type": "strength",
+          "title": "Strength — Push (upper chest priority)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: shoulder circles (CARs), band/towel external rotations 2x15, scapular push-ups 2x10, wrist prep", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up", "sets": 3, "reps": "feet on a chair, MAX reps, then drop to floor decline for a max set (test)", "notes": "TEST DAY: log your best set. Compare to Week 1 — this is the number that shows the work paid off." },
+            { "name": "DB Floor/Incline Press", "sets": 3, "reps": "10-12 reps @ 12.5kg, max control, ~0 (test) in reserve", "notes": "Floor press early = shoulder-friendly. Press with control, no bouncing." },
+            { "name": "Ring/Parallel Dip Progression", "sets": 3, "reps": "TEST: max full dips if cleared; otherwise keep to assisted + negatives", "notes": "Shoulders lead here. Sharp/pinchy pain = stop and back off, that's not a push-through. Muscle burn is fine. Never bounce out of the bottom." },
+            { "name": "Pike Push-up (light shoulders)", "sets": 3, "reps": "6-10 reps, partial range, 0 (test) in reserve", "notes": "Eased-in overhead work. Keep range pain-free; stop short of any impingement." },
+            { "name": "Triceps Extension (DB or ring)", "sets": 3, "reps": "10-15 reps", "notes": "Full lockout, controlled." },
+            { "name": "Neck — Flexion/Extension", "sets": 3, "reps": "3 sets x 15, hardest pain-free resistance you've built to", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Doorway pec stretch 2x30s per side, cross-body shoulder stretch, child's pose", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 1,
+          "label": "Day 1"
+        },
+        {
+          "type": "recovery",
+          "title": "Run — Easy (Zone 2)",
+          "duration": "40 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "40 min @ conversational pace (can hold a sentence)", "notes": "Truly easy. This builds the aerobic engine without stealing recovery from lifting." }
+          ],
+          "day": 2,
+          "label": "Day 2"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Pull (back, biceps, forearms)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: dead hang 2x20s, thoracic extensions, scap pulls 2x8, band pull-aparts 2x15", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Pull-up (full ROM)", "sets": 4, "reps": "TEST: 1 max-rep set (aim 12-15+), then 2 back-off sets of 8", "notes": "TEST DAY: one honest max set. This is your headline number vs Week 1's 7-8." },
+            { "name": "Ring Row", "sets": 3, "reps": "10-12 reps, max control, squeeze shoulder blades", "notes": "Lower your feet / walk them forward to make it harder. Big posture + upper-back builder for desk shoulders." },
+            { "name": "Chin-up (biceps emphasis)", "sets": 3, "reps": "AMRAP x3", "notes": "Supinated grip. This plus curls is your bicep fix — and the reason your pull-ups will finish at the top." },
+            { "name": "DB Biceps Curl", "sets": 3, "reps": "10-12 reps @ 12.5kg + drop set last set", "notes": "Slow negative. Don't swing." },
+            { "name": "Mudgar Swings (10-to-2 / 360s)", "sets": 3, "reps": "10-12 per side", "notes": "Grip + forearm + shoulder health. Start slow and controlled with the 7kg." },
+            { "name": "Dead Hang / Wrist Curl", "sets": 2, "reps": "max hang + 15 wrist curls", "notes": "Direct forearm thickness work." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Lat stretch 2x30s per side, forearm/wrist stretch, thread-the-needle t-spine", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 3,
+          "label": "Day 3"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Lower (posterior chain + core)",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "6 min: hip CARs, ankle rocks, couch/hip-flexor stretch 2x30s (desk hips!), glute bridges 2x12", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "DB Romanian Deadlift", "sets": 3, "reps": "10-12 reps @ 12.5kg each, max control. Last set is a drop set — halve the load and go to failure.", "notes": "Hinge at the hips, flat back, feel the hamstrings load. Posterior chain is your #1 gap." },
+            { "name": "Bulgarian Split Squat", "sets": 3, "reps": "8-12 per leg @ 12.5kg, 0 (test) in reserve", "notes": "Rear foot on the chair. Single-leg strength + stability — huge for desk-weak legs." },
+            { "name": "Nordic Curl Progression", "sets": 3, "reps": "6-10 reps", "notes": "Hook feet under something solid. Lower as slow as you can — negatives build the hamstring." },
+            { "name": "Single-leg Calf Raise", "sets": 3, "reps": "12-15 per leg @ 12.5kg", "notes": "Full stretch at the bottom, pause at the top." },
+            { "name": "Bear Crawl", "sets": 3, "reps": "3x across + back", "notes": "Knees just off the floor, flat back. Full-body + core + gentle shoulder loading." },
+            { "name": "Hanging Leg Raise", "sets": 4, "reps": "TEST: max clean straight-leg hanging raises x2", "notes": "The abs you hate. Controlled, no swinging." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Hamstring + hip-flexor stretch 2x30s each, figure-4 glute stretch", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 4,
+          "label": "Day 4"
+        },
+        {
+          "type": "speed",
+          "title": "Run — Moderate + Strides",
+          "duration": "30 min",
+          "exercises": [
+            { "name": "Easy Warm-up", "sets": 1, "reps": "8 min easy", "notes": "" },
+            { "name": "Steady Segment", "sets": 1, "reps": "14 min @ comfortably-hard (can speak a few words)", "notes": "Your one 'quality' run. Don't turn it into a race." },
+            { "name": "Strides", "sets": 6, "reps": "20s relaxed fast + 40s walk", "notes": "Smooth, fast feet, not a sprint." },
+            { "name": "Easy Cool-down", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ],
+          "day": 5,
+          "label": "Day 5"
+        },
+        {
+          "type": "strength",
+          "title": "Strength — Full-body / weak points",
+          "duration": "~55 min",
+          "exercises": [
+            { "name": "Mobility warm-up", "sets": 1, "reps": "5 min: full-body flow — arm swings, hip openers, t-spine rotations, scap push-ups", "notes": "Do this BEFORE the session — don't skip it." },
+            { "name": "Decline Push-up (2nd chest hit)", "sets": 3, "reps": "feet on a chair, MAX reps, then drop to floor decline for a max set (test)", "notes": "Second weekly upper-chest session — this frequency is what grows it. TEST DAY: log your best set. Compare to Week 1 — this is the number that shows the work paid off." },
+            { "name": "Archer / Ring Row", "sets": 3, "reps": "8-10 per side", "notes": "Second back hit — lean toward the working side for more load." },
+            { "name": "DB Lateral Raise (light)", "sets": 3, "reps": "12-15 reps, light, 0 (test) in reserve", "notes": "Shoulder WIDTH, but strict and light — no swinging, stop if it pinches." },
+            { "name": "Farmer Carry", "sets": 3, "reps": "40-50m", "notes": "Grip, traps, neck, core all at once. Stand tall, brace." },
+            { "name": "Neck — Lateral + Iso", "sets": 3, "reps": "3 sets x 15, hardest pain-free resistance you've built to", "notes": "Neck ramps SLOW — it's easy to tweak. Light pressure, smooth reps, never jerky. Builds the thickness you're after over months, not weeks." },
+            { "name": "Mudgar 360s", "sets": 3, "reps": "8-12 per side", "notes": "More forearm + shoulder-health volume." },
+            { "name": "Hollow Body Hold", "sets": 3, "reps": "TEST: max-duration hollow hold x2 (log your best)", "notes": "Low back pressed into the floor the whole time." },
+            { "name": "Cool-down / stretch", "sets": 1, "reps": "Full-body stretch: pecs, lats, hips, neck. 6-8 min, unwind.", "notes": "Do this AFTER — 5 min, breathe into the stretches." }
+          ],
+          "day": 6,
+          "label": "Day 6"
+        },
+        {
+          "type": "mobility",
+          "title": "Mobility & Recovery",
+          "duration": "25-30 min",
+          "exercises": [
+            { "name": "Thoracic Spine", "sets": 1, "reps": "Foam roll / extensions + open-book rotations 2x10 per side", "notes": "Undo the desk hunch. Priority for you." },
+            { "name": "Hip Openers", "sets": 1, "reps": "Couch stretch 2x45s per side, 90/90 transitions 2x8", "notes": "Desk hips get tight — this keeps your squats and runs healthy." },
+            { "name": "Neck & Upper Back", "sets": 1, "reps": "Gentle neck CARs, chin tucks 2x10, band pull-aparts 2x15", "notes": "Posture reset for the office-worker rounding." },
+            { "name": "Easy Walk", "sets": 1, "reps": "15-20 min easy walk", "notes": "Blood flow, recovery, no intensity." }
+          ],
+          "day": 7,
+          "label": "Day 7"
         }
       ]
     }
