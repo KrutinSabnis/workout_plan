@@ -10,6 +10,8 @@
   --long: #111111;
   --long-border: #3a3a3a;
   --speed: #c4e021;
+  --strength: #3556d1;
+  --mobility: #9b7fe0;
   --rest: #eeeee8;
   --rest-text: #17171488;
   --accent: #c4e021;
@@ -156,6 +158,8 @@ html, body {
 .day-tag.recovery { background: var(--recovery); color: #1a0a04; }
 .day-tag.long { background: var(--long); color: #fff; border: 1px solid var(--long-border); }
 .day-tag.speed { background: linear-gradient(135deg, #6f8a12, var(--speed)); color: #10150a; }
+.day-tag.strength { background: linear-gradient(135deg, #1c2a70, var(--strength)); color: #eef1ff; }
+.day-tag.mobility { background: var(--mobility); color: #1a1030; }
 .day-tag.rest { background: var(--rest); color: var(--rest-text); }
 
 .day-info { flex: 1; min-width: 0; }

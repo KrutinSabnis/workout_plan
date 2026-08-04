@@ -34,7 +34,7 @@ This is the exact shape `app.js` expects. When generating or updating a plan, ou
 
 ## Rules
 
-- `type` must be one of `recovery`, `long`, `speed`, `rest` — these drive the color-coded tags in the UI. Don't invent new types unless you also add a CSS rule for `.day-tag.<type>` in `style.css`.
+- `type` must be one of `recovery`, `long`, `speed`, `strength`, `mobility`, `rest` — these drive the color-coded tags in the UI. Don't invent new types unless you also add a CSS rule for `.day-tag.<type>` in `style.css`.
 - `rest` days should have `"exercises": []` and `"duration": ""`.
 - `exercises[].sets` is a number — the app auto-generates that many blank set/rep/weight rows for logging.
 - `exercises[].reps` is the *target* shown before logging (e.g. "8 reps" or "400m @ 5k pace"), not what was actually done — actual performance is logged separately by the user in the app and lives in `localStorage`, not in `plan.json`.
