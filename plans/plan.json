@@ -1,0 +1,82 @@
+{
+  "planName": "Base Build — 4 Week Plan",
+  "startDate": "2026-08-04",
+  "weeks": [
+    {
+      "week": 1,
+      "summary": "Establish baseline. Easy volume, one speed session.",
+      "days": [
+        {
+          "day": 1,
+          "label": "Day 1",
+          "type": "recovery",
+          "title": "Recovery Run",
+          "duration": "15 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "15 min @ conversational pace", "notes": "" }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "Day 2",
+          "type": "long",
+          "title": "Long Run",
+          "duration": "60 min",
+          "exercises": [
+            { "name": "Long Run", "sets": 1, "reps": "60 min @ easy pace", "notes": "" }
+          ]
+        },
+        {
+          "day": 3,
+          "label": "Day 3",
+          "type": "rest",
+          "title": "Rest Day",
+          "duration": "",
+          "exercises": []
+        },
+        {
+          "day": 4,
+          "label": "Day 4",
+          "type": "recovery",
+          "title": "Recovery Run",
+          "duration": "60 min",
+          "exercises": [
+            { "name": "Easy Run", "sets": 1, "reps": "60 min @ conversational pace", "notes": "" }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "Day 5",
+          "type": "speed",
+          "title": "Speed Run",
+          "duration": "22 min",
+          "exercises": [
+            { "name": "Warm-up Jog", "sets": 1, "reps": "5 min easy", "notes": "" },
+            { "name": "Tempo Run", "sets": 1, "reps": "12 min @ threshold pace", "notes": "" },
+            { "name": "Cool-down Jog", "sets": 1, "reps": "5 min easy", "notes": "" }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "Day 6",
+          "type": "rest",
+          "title": "Rest Day",
+          "duration": "",
+          "exercises": []
+        },
+        {
+          "day": 7,
+          "label": "Day 7",
+          "type": "speed",
+          "title": "Speed Run",
+          "duration": "67 min",
+          "exercises": [
+            { "name": "Warm-up Jog", "sets": 1, "reps": "10 min easy", "notes": "" },
+            { "name": "400m Intervals", "sets": 8, "reps": "400m @ 5k pace, 90s jog recovery", "notes": "" },
+            { "name": "Cool-down Jog", "sets": 1, "reps": "10 min easy", "notes": "" }
+          ]
+        }
+      ]
+    }
+  ]
+}
