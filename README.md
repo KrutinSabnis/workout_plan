@@ -24,6 +24,8 @@ then open `http://localhost:8000`.
 
 ## Updating the plan with Claude
 
-1. Open a Claude conversation, share `plans/plan.json` and (if you have it) your exported progress JSON.
+The exact JSON shape Claude needs to produce is documented in [`PLAN_SCHEMA.md`](PLAN_SCHEMA.md) — point Claude at that file so it doesn't have to guess the format.
+
+1. Open a Claude conversation (this repo or a fresh one). Share `PLAN_SCHEMA.md`, your current `plans/plan.json`, and (if you have it) your exported progress JSON from the Export button.
 2. Ask Claude to adjust the plan based on what you completed, RPE, and notes.
-3. Have Claude write the new `plans/plan.json`, commit, and push — GitHub Pages redeploys automatically.
+3. Take the JSON Claude gives you and paste it over `plans/plan.json`, then commit and push — GitHub Pages redeploys automatically. (If Claude has repo/git access in that conversation, it can do this step directly.)
