@@ -25,7 +25,7 @@ function getEntry(week, day) {
 }
 
 async function init() {
-  const res = await fetch("plans/plan.json");
+  const res = await fetch(`plans/plan.json?v=${Date.now()}`, { cache: "no-store" });
   PLAN = await res.json();
   document.getElementById("planName").innerHTML = `${PLAN.planName} <span class="version-tag">v0.0.1</span>`;
   render();
@@ -295,7 +295,7 @@ document.getElementById("exportBtn").addEventListener("click", async () => {
 
   let schema = "";
   try {
-    schema = await (await fetch("PLAN_SCHEMA.md")).text();
+    schema = await (await fetch(`PLAN_SCHEMA.md?v=${Date.now()}`, { cache: "no-store" })).text();
   } catch {
     // schema fetch is best-effort; export still works without it
   }
